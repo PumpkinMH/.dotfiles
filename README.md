@@ -1,7 +1,7 @@
 # My Dotfiles
 These are my dotfile confiuration files for different software in Bash.
 ## Installation instructions
-Copy the contents of the repository to a folder called .dotfiles in the home directory, and then run 'make'
+Copy the contents of the repository to a folder called .dotfiles in the home directory, and then run `make`
 ## .vimrc (root directory)
 This is my older custom .vimrc configuration for Vim.
 ## vimrc (./etc)
