@@ -1,0 +1,153 @@
+git config --global user.name "Mark Hurd"
+#1677534611
+git config --global user.email "mahurd@email.sc.edu"
+#1677534618
+ls -a
+#1677534621
+cd .ssh
+#1677534624
+ls -a
+#1677534640
+touch config
+#1677534641
+ls
+#1677534648
+vim config
+#1677534722
+ls
+#1677534750
+mkdir github
+#1677534752
+cd github/
+#1677534753
+ls
+#1677534754
+ls -a
+#1677534758
+ls -al
+#1677534780
+ssh-keygen -t ed25519 -a 203 -f ./id_ed25519
+#1677534870
+ls
+#1677534876
+cat id_ed25519
+#1677534888
+cat id_ed25519.pub
+#1677535376
+ls
+#1677535889
+cd ~
+#1677535891
+ls
+#1677535902
+mkdir .dotfiles
+#1677535902
+l
+#1677535907
+man l
+#1677535909
+l
+#1677535909
+ls
+#1677535912
+ls -a
+#1677535927
+cd .dotfiles/
+#1677535934
+pwd
+#1677535994
+ls
+#1677535995
+pwd
+#1677536011
+touch README.md
+#1677536012
+ls
+#1677536020
+vim README.md 
+#1677536140
+cat README.md 
+#1677536154
+cd ..
+#1677536154
+ls
+#1677536156
+ls -a
+#1677536172
+cp .vimrc .dotfiles/
+#1677536173
+ls
+#1677536176
+cd .dotfiles/
+#1677536179
+ls -a
+#1677536258
+ls
+#1677536261
+ls -a
+#1677536262
+exit
+#1677543589
+ls
+#1677543590
+ls -a
+#1677543597
+cd .dotfiles/
+#1677543599
+ls
+#1677543622
+git init
+#1677543627
+git add --all
+#1677543646
+git commit -m "INIT commit"
+#1677543699
+git remote add origin git@github.com:PumpkinMH./dotfiles
+#1677543832
+git push -u origin main
+#1677543860
+git push -u origin main busW$7push -u origin main
+#1677543896
+git reset
+#1677543898
+git init
+#1677543906
+git add --all
+#1677543912
+git commit -m "INIT commit"
+#1677543923
+git branch -M main
+#1677543937
+git remote add origin git@github.com:PumpkinMH/.dotfiles
+#1677543944
+git push -u origin main
+#1677543978
+ls -a
+#1677543985
+rm .git
+#1677543990
+rm -r .git
+#1677544003
+ls
+#1677544005
+ls -a
+#1677544034
+git init
+#1677544039
+git add --all
+#1677544049
+git commit -m "INIT commit"
+#1677544058
+git branch -M main
+#1677544074
+git remote add origin git@github.com:PumpkinMH/.dotfiles
+#1677544079
+git push -u origin main
+#1677544487
+ls
+#1677544505
+ls -al
+#1677544529
+vim hw1.txt
+#1677546499
+exit
