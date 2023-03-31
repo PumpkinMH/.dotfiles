@@ -14,3 +14,7 @@ Creates a .TRASH directory, adds my custom vimrc to the home directory while ren
 ## cleanup.sh
 Removes my custom vimrc and renames the "old" vimrc that was there before setting up my vimrc to be the current one.
 Removes the source that was added to the .bashrc file, which removes all of the changes made to it effectively
+## Makefile
+Sets up everything after the .dotfiles directory is placed in the home directory properly
+`make` to set up everything
+`make clean` to clean up the changes
